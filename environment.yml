@@ -1,0 +1,13 @@
+name: dash1_env
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - dash
+  - numpy
+  - pandas
+  - sqlalchemy
+  - pymysql
+  - scipy
+  - mysql-connector-python
+prefix: C:\Users\zennsunni\.conda\envs\dash1_env
