@@ -9,6 +9,8 @@ http://yelp-dashboard.eba-jpaf3bhg.us-east-2.elasticbeanstalk.com/
 # Motivation
 To demonstrate the abililty to self-start and develop new technology skills to prospective employers.
 
+# Functionality
+The dashboard's base input is a dropdown menu to select a category tag. The database is then queried to get this tag's refernce number and populate the ten cities with the largest count of said tag. This graph can then me moused over to display some geospatial data for that particular city, seasonality by review count, and the 5 business attributes most associated with being open for business with that particular city and category. This is determined by Jaccard Similarity for the given dataset, which is defined as ![equation](https://latex.codecogs.com/svg.latex?J%28A%2CB%29%20%3D%20%5Cfrac%7B%7CA%5Ccap%20B%7C%7D%7B%7CA%7C%20&plus;%20%7CB%7C%20-%20%7CA%20%5Ccap%20B%7C%7D).
 # Framework
 Full framework requirements are located in the requirements.txt file.
 
